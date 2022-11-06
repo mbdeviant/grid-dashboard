@@ -13,9 +13,9 @@
 
 .header {
     grid-area: header;
-    margin-top: 5px;
-    padding: 0 25px 0 25px;
+    padding: 15px 25px 15px 25px;
     gap: 15px;
+    background-color: #F2E7D5;
 }
 
 img{
@@ -35,7 +35,7 @@ input {
 .header.top {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 5px 0px;
 }
 .header.top.left{
     gap: 2px;
@@ -69,7 +69,7 @@ button {
     gap: 52px;
     grid-area: sidebar;
     align-content: start;
-    background-color: gold;
+    background-color: #F2E7D5;
 }
 
 h1,
@@ -84,9 +84,18 @@ ul {
 .title {
     display: flex;
     align-items: center;
-    padding: 15px;
-    font-size: 22px;
+    padding: 15px 0 0 15px;
+    
 }
+.title > h1{
+    font-size: 42px;
+}
+.title > img {
+    width: 50px;
+    height: 50px;
+}
+
+
 
 .content {
     height: 100%;
@@ -100,36 +109,42 @@ ul {
 .card-container {
     grid-column: 1/3;
     display: grid;
-    gap: 15px;
+    gap: 25px;
+    margin-top: 15px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(175px, 1fr));
 }
 
 .card {
-
+    
+    padding: 10px;
     width: 250px;
-    max-height: 250px;
+    height: 200px;
+    text-align: left;
 
-}
-.card > .title{
-    text-transform: uppercase;
 }
 
 .card p {
     color: black;
     font-weight: normal;
     font-size: 17px;
+    max-height: 100%;
 }
 
-.card .title {
+.card > h3{
     font-size: 18px;
-    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4px;
 }
 .container-right{
     display: flex;
     flex-direction: column;
     gap: 55px;
     max-height: 100vh;
+}
+.announcements{
+    margin-top: 15px;
 }
 .announcements > .slot{
     width: clamp(40ch,50%,75ch);   
