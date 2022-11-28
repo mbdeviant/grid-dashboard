@@ -16,7 +16,7 @@
     grid-area: header;
     padding: 15px 25px 15px 25px;
     gap: 15px;
-    background-color: #414A4C;
+    background-color: wheat;
 }
 
 img {
@@ -60,7 +60,7 @@ input {
 }
 
 .profile-info>p {
-    color: white;
+    color: black;
 }
 
 .buttons {
@@ -71,7 +71,7 @@ button {
     width: 70px;
     height: 20px;
     align-self: center;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 12px;
 }
 button:hover{
@@ -84,19 +84,19 @@ button:hover{
     gap: 52px;
     grid-area: sidebar;
     align-content: start;
-    background-color: #414A4C;
+    background-color: wheat;
 }
 a{
     text-decoration: none;
 }
 a:visited{
-    color: rgb(235, 235, 235);;
+    color: black;
 }
 
 
 h1,
 li {
-    color: white;
+    color: black;
     font-size: 24px;
 }
 
@@ -149,19 +149,19 @@ ul {
     width: 250px;
     height: 200px;
     text-align: left;
-    background-color: #414A4C;
+    background-color: wheat;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card p {
-    color: #C5C6D0;
+    color: black;
     font-weight: normal;
     font-size: 17px;
     max-height: 100%;
 }
 
 .card>h3 {
-    color: #C5C6D0;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -179,9 +179,9 @@ ul {
     margin-top: 15px;
     padding: 15px;
     border-radius: 14px;
-    background-color: #414A4C;
+    background-color: wheat;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #C5C6D0;
+    color: black;
 }
 .announcements>.slot {
     width: clamp(40ch, 100%, 75ch);
@@ -202,14 +202,13 @@ ul {
     grid-column: 3/4;
     display: flex;
     flex-direction: column;
-    
     padding: 15px;
-    background-color: #414A4C;
+    background-color: wheat;
     border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .trends>h2{
-    color: rgb(235, 235, 235);
+    color: black;
 }
 .people{
     display: flex;
@@ -232,5 +231,5 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    color: rgb(235, 235, 235);
+    color: black;
 }
